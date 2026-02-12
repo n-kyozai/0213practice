@@ -179,18 +179,18 @@
         <div class="map-item">
             <span class="map-title">王朝 A</span>
             <span class="map-century">(前3世紀後半〜前2世紀前半)</span>
-            <!-- GitHubに上げた画像のパスを指定 -->
-            <img src="images/31.jpg" alt="王朝Aの地図" class="map-image">
+            <!-- GitHubの現在のファイル名に合わせました -->
+            <img src="無題フォルダー - 31.jpg" alt="王朝Aの地図" class="map-image">
         </div>
         <div class="map-item">
             <span class="map-title">王朝 B</span>
             <span class="map-century">(2世紀中頃)</span>
-            <img src="images/32.jpg" alt="王朝Bの地図" class="map-image">
+            <img src="無題フォルダー - 32.jpg" alt="王朝Bの地図" class="map-image">
         </div>
         <div class="map-item">
             <span class="map-title">王朝 C</span>
             <span class="map-century">(5世紀初め)</span>
-            <img src="images/33.jpg" alt="王朝Cの地図" class="map-image">
+            <img src="無題フォルダー - 33.jpg" alt="王朝Cの地図" class="map-image">
         </div>
     </div>
 
@@ -260,15 +260,12 @@
 
 <script>
     function checkAnswers() {
-        // 正解の定義 (順不同に対応)
         const answers = {
-            a: ['ア', 'オ'], // マウリヤ朝
-            b: ['エ', 'ケ'], // クシャーナ朝
-            c: ['ウ', 'ク']  // グプタ朝
+            a: ['ア', 'オ'],
+            b: ['エ', 'ケ'],
+            c: ['ウ', 'ク']
         };
 
-        let score = 0;
-        
         const checkPair = (id1, id2, correctArr) => {
             const val1 = document.getElementById(id1).value;
             const val2 = document.getElementById(id2).value;
